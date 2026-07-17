@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 40" width="160" height="40" fill="none">
+  <!-- 
+    Professional Minimalist Icon (Transparent Background)
+    Uses a refined 2px stroke geometric grid for an institutional terminal look
+  -->
+  <g transform="translate(4, 0)">
+    <path d="M8 24H13L16 11L20 29L23 19L25 24H30" 
+          stroke="#059669" 
+          stroke-width="2.25" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    <!-- Tech Node/Coin Accent -->
+    <circle cx="30" cy="24" r="1.5" fill="#0EA5E9"/>
+  </g>
+
+  <!-- 
+    Adaptive Typography: 
+    fill="currentColor" ensures text automatically turns black on light mode 
+    and white on dark mode based on the parent wrapper class.
+  -->
+  <text x="48" y="26" 
+        fill="currentColor" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif" 
+        font-size="16" 
+        font-weight="600" 
+        letter-spacing="-0.03em">Coin<tspan fill="#059669" font-weight="700">Flow</tspan></text>
+</svg>
